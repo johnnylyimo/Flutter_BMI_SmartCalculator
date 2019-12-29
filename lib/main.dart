@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bmi_smart_calculator/screens/home_page.dart';
+import 'package:flutter_bmi_smart_calculator/screens/splash_screen.dart';
 
 void main() => runApp(BMICalculator());
 
@@ -29,7 +29,7 @@ class BMICalculator extends StatelessWidget {
         accentColor: Colors.teal.shade700,
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: SplashScreen(),
     );
   }
 }
