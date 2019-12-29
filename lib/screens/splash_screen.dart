@@ -37,6 +37,7 @@ class _SplashScreenState extends State<SplashScreen> {
             style: TextStyle(
               fontSize: 28.0,
               color: Theme.of(context).colorScheme.onSurface,
+              fontWeight: FontWeight.w900,
             ),
           )
         ],
