@@ -9,6 +9,8 @@ class BMICalculator extends StatelessWidget {
     body1: TextStyle(color: Colors.white),
   );
 
+  final ColorScheme colorScheme = ColorScheme.light();
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
