@@ -9,7 +9,9 @@ class BMICalculator extends StatelessWidget {
     body1: TextStyle(color: Colors.white),
   );
 
-  final ColorScheme colorScheme = ColorScheme.light();
+  final ColorScheme colorScheme = ColorScheme.light(
+    primary: Colors.teal.shade500,
+  );
 
   @override
   Widget build(BuildContext context) {
