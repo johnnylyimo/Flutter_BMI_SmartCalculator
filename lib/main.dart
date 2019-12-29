@@ -14,6 +14,7 @@ class BMICalculator extends StatelessWidget {
     onPrimary: Colors.teal.shade700,
     secondary: Colors.white,
     surface: Colors.teal,
+    onSecondary: Colors.teal[900],
   );
 
   @override
