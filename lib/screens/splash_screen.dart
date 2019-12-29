@@ -30,6 +30,7 @@ class _SplashScreenState extends State<SplashScreen> {
         children: <Widget>[
           FlutterLogo(
             colors: Theme.of(context).colorScheme.surface,
+            size: 300,
           ),
         ],
       ),
