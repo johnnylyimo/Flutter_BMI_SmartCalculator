@@ -11,6 +11,7 @@ class BMICalculator extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primaryColor: Colors.teal.shade500,
+        accentColor: Colors.teal.shade700,
         primarySwatch: Colors.blue,
       ),
       home: HomePage(),
