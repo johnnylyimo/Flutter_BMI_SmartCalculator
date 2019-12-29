@@ -34,7 +34,10 @@ class _SplashScreenState extends State<SplashScreen> {
           ),
           Text(
             'BMI Smart Calculator',
-            style: TextStyle(fontSize: 28.0),
+            style: TextStyle(
+              fontSize: 28.0,
+              color: Theme.of(context).colorScheme.onSurface,
+            ),
           )
         ],
       ),
