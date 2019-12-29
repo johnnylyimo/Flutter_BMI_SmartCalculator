@@ -27,7 +27,11 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[FlutterLogo()],
+        children: <Widget>[
+          FlutterLogo(
+            colors: Theme.of(context).colorScheme.surface,
+          ),
+        ],
       ),
     );
   }
