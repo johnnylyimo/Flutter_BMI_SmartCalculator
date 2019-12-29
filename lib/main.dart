@@ -5,6 +5,10 @@ void main() => runApp(BMICalculator());
 
 class BMICalculator extends StatelessWidget {
   // This widget is the root of your application.
+  final TextTheme textTheme = TextTheme(
+    body1: TextStyle(color: Colors.white),
+  );
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
