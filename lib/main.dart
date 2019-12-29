@@ -12,6 +12,7 @@ class BMICalculator extends StatelessWidget {
   final ColorScheme colorScheme = ColorScheme.light(
     primary: Colors.teal.shade500,
     onPrimary: Colors.teal.shade700,
+    secondary: Colors.white,
   );
 
   @override
