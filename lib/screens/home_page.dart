@@ -28,7 +28,12 @@ class _HomePageState extends State<HomePage> {
                   child: ReusableCard(
                     color: inactiveCardColor,
                     cardChild: Column(
-                      children: <Widget>[],
+                      children: <Widget>[
+                        Icon(
+                          FontAwesomeIcons.mars,
+                          size: 48.0,
+                        )
+                      ],
                     ),
                   ),
                 ),
