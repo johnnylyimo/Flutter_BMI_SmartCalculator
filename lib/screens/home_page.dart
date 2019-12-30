@@ -48,6 +48,11 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Expanded(
                   child: GestureDetector(
+                    onTap: () {
+                      setState(() {
+                        selectedGender = Gender.female;
+                      });
+                    },
                     child: ReusableCard(
                       color: selectedGender == Gender.female
                           ? activeCardColor
