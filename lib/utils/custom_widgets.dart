@@ -33,7 +33,8 @@ class IconContents extends StatelessWidget {
         Icon(
           iconName,
           size: 48.0,
-        )
+          color: Theme.of(context).colorScheme.secondary,
+        ),
       ],
     );
   }
