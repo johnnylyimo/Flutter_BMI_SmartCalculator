@@ -42,6 +42,10 @@ class _HomePageState extends State<HomePage> {
                 )
               ],
             ),
+          ),
+          FloatingActionButton.extended(
+            onPressed: () {},
+            label: Text('CALCULATE YOUR BMI'),
           )
         ],
       ),
