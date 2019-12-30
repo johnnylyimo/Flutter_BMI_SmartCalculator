@@ -17,7 +17,9 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         children: <Widget>[
           Expanded(
-            child: null,
+            child: Row(
+              children: <Widget>[],
+            ),
           ),
           Expanded(
             child: null,
