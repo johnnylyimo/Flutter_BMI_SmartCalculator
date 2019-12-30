@@ -15,7 +15,11 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       body: Column(
-        children: <Widget>[],
+        children: <Widget>[
+          Expanded(
+            child: null,
+          )
+        ],
       ),
     );
   }
