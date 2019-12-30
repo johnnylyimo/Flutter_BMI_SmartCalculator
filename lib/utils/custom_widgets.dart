@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bmi_smart_calculator/utils/constants.dart';
 
 class ReusableCard extends StatelessWidget {
   final Color color;
@@ -40,6 +41,7 @@ class IconContents extends StatelessWidget {
         ),
         Text(
           label,
+          style: kLabelTextStyle,
         )
       ],
     );
