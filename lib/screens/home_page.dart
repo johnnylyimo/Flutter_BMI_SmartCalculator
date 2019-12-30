@@ -21,6 +21,9 @@ class _HomePageState extends State<HomePage> {
           ),
           Expanded(
             child: null,
+          ),
+          Expanded(
+            child: null,
           )
         ],
       ),
