@@ -48,7 +48,9 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Expanded(
                   child: ReusableCard(
-                    color: inactiveCardColor,
+                    color: selectedGender == Gender.female
+                        ? activeCardColor
+                        : inactiveCardColor,
                     cardChild: IconContent(
                       iconName: FontAwesomeIcons.venus,
                       label: 'Female',
