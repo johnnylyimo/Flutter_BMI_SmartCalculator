@@ -36,7 +36,9 @@ class _HomePageState extends State<HomePage> {
                       });
                     },
                     child: ReusableCard(
-                      color: inactiveCardColor,
+                      color: selectedGender == Gender.male
+                          ? activeCardColor
+                          : inactiveCardColor,
                       cardChild: IconContent(
                         iconName: FontAwesomeIcons.mars,
                         label: 'Male',
