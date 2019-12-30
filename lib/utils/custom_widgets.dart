@@ -21,10 +21,12 @@ class ReusableCard extends StatelessWidget {
 
 // **************************************************************************\\
 class IconContents extends StatelessWidget {
+  final IconData iconName;
   @override
   Widget build(BuildContext context) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
+      children: <Widget>[],
     );
   }
 }
