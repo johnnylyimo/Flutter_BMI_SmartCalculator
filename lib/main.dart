@@ -28,7 +28,7 @@ class BMICalculator extends StatelessWidget {
         primaryColor: Colors.teal.shade500,
         scaffoldBackgroundColor: Colors.teal.shade200,
         accentColor: Colors.teal.shade700,
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.teal,
       ),
       home: SplashScreen(),
     );
