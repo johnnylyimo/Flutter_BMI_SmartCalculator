@@ -26,15 +26,20 @@ class _HomePageState extends State<HomePage> {
               children: <Widget>[
                 Expanded(
                   child: ReusableCard(
-                      color: inactiveCardColor,
-                      cardChild: IconContent(
-                        iconName: FontAwesomeIcons.mars,
-                        label: 'Male',
-                      )),
+                    color: inactiveCardColor,
+                    cardChild: IconContent(
+                      iconName: FontAwesomeIcons.mars,
+                      label: 'Male',
+                    ),
+                  ),
                 ),
                 Expanded(
                   child: ReusableCard(
                     color: inactiveCardColor,
+                    cardChild: IconContent(
+                      iconName: FontAwesomeIcons.venus,
+                      label: 'Female',
+                    ),
                   ),
                 )
               ],
