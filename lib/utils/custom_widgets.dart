@@ -37,6 +37,9 @@ class IconContents extends StatelessWidget {
         ),
         SizedBox(
           height: 10.0,
+        ),
+        Text(
+          label,
         )
       ],
     );
