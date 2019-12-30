@@ -14,6 +14,9 @@ class _HomePageState extends State<HomePage> {
           child: Text('BMI Smart Calculator'),
         ),
       ),
+      body: Column(
+        children: <Widget>[],
+      ),
     );
   }
 }
