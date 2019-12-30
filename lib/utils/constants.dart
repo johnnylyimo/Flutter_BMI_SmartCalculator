@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 //k - constant Flutter naming convention
 
-const kLabelStyle = TextStyle(
+const kLabelTextStyle = TextStyle(
   fontSize: 20.0,
   fontWeight: FontWeight.bold,
 );
