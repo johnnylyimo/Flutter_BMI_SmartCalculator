@@ -23,6 +23,6 @@ class ReusableCard extends StatelessWidget {
 class IconContents extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Column();
   }
 }
