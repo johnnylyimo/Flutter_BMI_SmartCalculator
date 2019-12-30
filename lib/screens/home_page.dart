@@ -30,6 +30,11 @@ class _HomePageState extends State<HomePage> {
               children: <Widget>[
                 Expanded(
                   child: GestureDetector(
+                    onTap: () {
+                      setState(() {
+                        selectedGender = Gender.male;
+                      });
+                    },
                     child: ReusableCard(
                       color: inactiveCardColor,
                       cardChild: IconContent(
