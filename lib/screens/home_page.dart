@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 Color activeCardColor = Colors.teal.shade500;
+Color inactiveCardColor = Colors.teal.shade300;
 
 class HomePage extends StatefulWidget {
   @override
