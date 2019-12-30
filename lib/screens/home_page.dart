@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bmi_smart_calculator/utils/custom_widgets.dart';
 
 Color activeCardColor = Colors.teal.shade500;
 Color inactiveCardColor = Colors.teal.shade300;
@@ -23,25 +24,35 @@ class _HomePageState extends State<HomePage> {
             child: Row(
               children: <Widget>[
                 Expanded(
-                  child: null,
+                  child: ReusableCard(
+                    color: inactiveCardColor,
+                  ),
                 ),
                 Expanded(
-                  child: null,
+                  child: ReusableCard(
+                    color: inactiveCardColor,
+                  ),
                 )
               ],
             ),
           ),
           Expanded(
-            child: null,
+            child: ReusableCard(
+              color: inactiveCardColor,
+            ),
           ),
           Expanded(
             child: Row(
               children: <Widget>[
                 Expanded(
-                  child: null,
+                  child: ReusableCard(
+                    color: inactiveCardColor,
+                  ),
                 ),
                 Expanded(
-                  child: null,
+                  child: ReusableCard(
+                    color: inactiveCardColor,
+                  ),
                 )
               ],
             ),
