@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bmi_smart_calculator/utils/custom_widgets.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
+enum Gender { male, female }
+
 Color activeCardColor = Colors.teal.shade500;
 Color inactiveCardColor = Colors.teal.shade300;
 
