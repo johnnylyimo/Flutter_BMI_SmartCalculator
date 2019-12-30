@@ -32,6 +32,7 @@ class IconContents extends StatelessWidget {
       children: <Widget>[
         Icon(
           iconName,
+          size: 48.0,
         )
       ],
     );
