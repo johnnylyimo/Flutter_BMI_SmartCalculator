@@ -35,6 +35,9 @@ class IconContents extends StatelessWidget {
           size: 48.0,
           color: Theme.of(context).colorScheme.secondary,
         ),
+        SizedBox(
+          height: 10.0,
+        )
       ],
     );
   }
