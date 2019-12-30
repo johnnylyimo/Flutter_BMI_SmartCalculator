@@ -22,6 +22,8 @@ class ReusableCard extends StatelessWidget {
 // **************************************************************************\\
 class IconContents extends StatelessWidget {
   final IconData iconName;
+  IconContents({@required this.iconName});
+
   @override
   Widget build(BuildContext context) {
     return Column(
