@@ -13,6 +13,8 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  Gender selectedGender;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
