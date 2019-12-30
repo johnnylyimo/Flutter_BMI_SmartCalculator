@@ -32,7 +32,9 @@ class _HomePageState extends State<HomePage> {
             child: null,
           ),
           Expanded(
-            child: null,
+            child: Row(
+              children: <Widget>[],
+            ),
           )
         ],
       ),
