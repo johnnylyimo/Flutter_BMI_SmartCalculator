@@ -78,6 +78,7 @@ class RoundIconButton extends StatelessWidget {
       child: Icon(
         icon,
         color: Theme.of(context).colorScheme.secondary,
+        size: 18.0,
       ),
       constraints: BoxConstraints.tightFor(
         width: 36.0,
