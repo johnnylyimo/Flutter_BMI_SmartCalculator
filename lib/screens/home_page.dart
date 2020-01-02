@@ -165,6 +165,7 @@ class _HomePageState extends State<HomePage> {
                 Expanded(
                   child: ReusableCard(
                     color: inactiveCardColor,
+                    cardChild: Column(),
                   ),
                 )
               ],
