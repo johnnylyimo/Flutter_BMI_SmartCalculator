@@ -65,6 +65,8 @@ RawMaterialButton basis button class does not use the current Theme or ButtonThe
 // RoundIconButton as custom FloatingActionButton
 
 class RoundIconButton extends StatelessWidget {
+  final IconData icon; // be specific passing only IconData
+
   @override
   Widget build(BuildContext context) {
     return RawMaterialButton(
@@ -73,7 +75,7 @@ class RoundIconButton extends StatelessWidget {
         width: 36.0,
         height: 36.0,
       ),
-      elevation: 6.0,
+      elevation: 6.0, //  take effect if onPressed define
       shape: CircleBorder(),
       fillColor: Theme.of(context).colorScheme.onPrimary,
     );
