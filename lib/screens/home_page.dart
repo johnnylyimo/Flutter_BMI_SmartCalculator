@@ -79,6 +79,7 @@ class _HomePageState extends State<HomePage> {
                         '180',
                         style: kNumberTextStyle,
                       ),
+                      Text('cm')
                     ],
                   )
                 ],
