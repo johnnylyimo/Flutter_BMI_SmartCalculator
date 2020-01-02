@@ -130,6 +130,9 @@ class _HomePageState extends State<HomePage> {
                           'WEIGHT',
                           style: kLabelTextStyle,
                         ),
+                        Text(
+                          weight.toString(),
+                        )
                       ],
                     ),
                   ),
