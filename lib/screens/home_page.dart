@@ -134,7 +134,9 @@ class _HomePageState extends State<HomePage> {
                           weight.toString(),
                           style: kNumberTextStyle,
                         ),
-                        Row()
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                        )
                       ],
                     ),
                   ),
