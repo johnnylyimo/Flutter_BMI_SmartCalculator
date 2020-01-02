@@ -140,7 +140,8 @@ class _HomePageState extends State<HomePage> {
                             RoundIconButton(),
                             SizedBox(
                               width: 20.0,
-                            )
+                            ),
+                            RoundIconButton(),
                           ],
                         )
                       ],
