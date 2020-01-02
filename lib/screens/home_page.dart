@@ -192,6 +192,11 @@ class _HomePageState extends State<HomePage> {
                             ),
                             RoundIconButton(
                               icon: FontAwesomeIcons.minus,
+                              onTap: () {
+                                setState(() {
+                                  age--;
+                                });
+                              },
                             )
                           ],
                         )
