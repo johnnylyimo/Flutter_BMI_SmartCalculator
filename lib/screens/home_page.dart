@@ -91,7 +91,9 @@ class _HomePageState extends State<HomePage> {
                     ],
                   ),
                   SliderTheme(
-                    data: SliderTheme.of(context).copyWith(),
+                    data: SliderTheme.of(context).copyWith(
+                        thumbShape:
+                            RoundSliderThumbShape(enabledThumbRadius: 15.0)),
                     child: Slider(
                       value: height.toDouble(),
                       min: 110.0,
