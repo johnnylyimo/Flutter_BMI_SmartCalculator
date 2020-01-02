@@ -30,6 +30,11 @@ class _HomePageState extends State<HomePage> {
               children: <Widget>[
                 Expanded(
                   child: ReusableCard(
+                    onPress: () {
+                      setState(() {
+                        selectedGender = Gender.male;
+                      });
+                    },
                     color: selectedGender == Gender.male
                         ? activeCardColor
                         : inactiveCardColor,
