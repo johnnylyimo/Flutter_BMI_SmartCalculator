@@ -172,6 +172,9 @@ class _HomePageState extends State<HomePage> {
                           'AGE',
                           style: kLabelTextStyle,
                         ),
+                        Text(
+                          age.toString(),
+                        )
                       ],
                     ),
                   ),
