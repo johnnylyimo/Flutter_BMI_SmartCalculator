@@ -75,7 +75,10 @@ class _HomePageState extends State<HomePage> {
                   ),
                   Row(
                     children: <Widget>[
-                      Text('180'),
+                      Text(
+                        '180',
+                        style: kNumberTextStyle,
+                      ),
                     ],
                   )
                 ],
