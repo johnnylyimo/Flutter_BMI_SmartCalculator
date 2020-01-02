@@ -69,6 +69,7 @@ class RoundIconButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return RawMaterialButton(
       shape: CircleBorder(),
+      fillColor: Theme.of(context).colorScheme.onPrimary,
     );
   }
 }
