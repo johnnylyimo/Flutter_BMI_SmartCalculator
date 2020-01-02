@@ -125,6 +125,9 @@ class _HomePageState extends State<HomePage> {
                     color: inactiveCardColor,
                     cardChild: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        Text('WEIGHT'),
+                      ],
                     ),
                   ),
                 ),
