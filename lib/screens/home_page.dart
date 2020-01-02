@@ -15,6 +15,8 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   Gender selectedGender;
+  int height = 180;
+
 
   @override
   Widget build(BuildContext context) {
@@ -85,7 +87,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                       Text('cm')
                     ],
-                  )
+                  ),
                 ],
               ),
               color: inactiveCardColor,
