@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bmi_smart_calculator/utils/constants.dart';
 
+/*Refactor ReusableCard _ Upgraded be able to detect touch, passing Function as value of onPress
+ Gesture Detector: wrapped inside ReusableCard, using High order function.
+*/
+
 class ReusableCard extends StatelessWidget {
   final Color color;
   final Widget cardChild;
@@ -25,6 +29,7 @@ class ReusableCard extends StatelessWidget {
 }
 
 // **************************************************************************\\
+// The repeated container is extracted, avoid redundant
 class IconContent extends StatelessWidget {
   final IconData iconName;
   final String label;
@@ -49,5 +54,19 @@ class IconContent extends StatelessWidget {
         )
       ],
     );
+  }
+}
+
+// **************************************************************************\\
+
+/* create custom buttons instead using FloatActionButton
+RawMaterialButton basis button class does not use the current Theme or ButtonTheme to compute default values for unspecified parameters. It's intended to be used for custom Material buttons that optionally incorporate defaults from the themes or from app-specific sources.
+*/
+// RoundIconButton as custom FloatingActionButton
+
+class RoundIconButton extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
   }
 }
