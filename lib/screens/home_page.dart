@@ -133,7 +133,8 @@ class _HomePageState extends State<HomePage> {
                         Text(
                           weight.toString(),
                           style: kNumberTextStyle,
-                        )
+                        ),
+                        Row()
                       ],
                     ),
                   ),
