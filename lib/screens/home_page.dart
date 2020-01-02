@@ -73,7 +73,11 @@ class _HomePageState extends State<HomePage> {
                     'HEIGHT',
                     style: kLabelTextStyle,
                   ),
-                  Row()
+                  Row(
+                    children: <Widget>[
+                      Text('180'),
+                    ],
+                  )
                 ],
               ),
               color: inactiveCardColor,
