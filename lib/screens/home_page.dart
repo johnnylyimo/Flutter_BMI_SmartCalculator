@@ -176,7 +176,9 @@ class _HomePageState extends State<HomePage> {
                           age.toString(),
                           style: kNumberTextStyle,
                         ),
-                        Row()
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                        )
                       ],
                     ),
                   ),
