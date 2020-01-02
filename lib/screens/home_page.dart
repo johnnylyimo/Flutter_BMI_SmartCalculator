@@ -29,20 +29,13 @@ class _HomePageState extends State<HomePage> {
             child: Row(
               children: <Widget>[
                 Expanded(
-                  child: GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        selectedGender = Gender.male;
-                      });
-                    },
-                    child: ReusableCard(
-                      color: selectedGender == Gender.male
-                          ? activeCardColor
-                          : inactiveCardColor,
-                      cardChild: IconContent(
-                        iconName: FontAwesomeIcons.mars,
-                        label: 'Male',
-                      ),
+                  child: ReusableCard(
+                    color: selectedGender == Gender.male
+                        ? activeCardColor
+                        : inactiveCardColor,
+                    cardChild: IconContent(
+                      iconName: FontAwesomeIcons.mars,
+                      label: 'Male',
                     ),
                   ),
                 ),
