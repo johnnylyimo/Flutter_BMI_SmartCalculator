@@ -138,6 +138,9 @@ class _HomePageState extends State<HomePage> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
                             RoundIconButton(),
+                            SizedBox(
+                              width: 20.0,
+                            )
                           ],
                         )
                       ],
