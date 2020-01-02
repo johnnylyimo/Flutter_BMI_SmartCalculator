@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bmi_smart_calculator/utils/constants.dart';
 import 'package:flutter_bmi_smart_calculator/utils/custom_widgets.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -67,7 +68,10 @@ class _HomePageState extends State<HomePage> {
             child: ReusableCard(
               cardChild: Column(
                 children: <Widget>[
-                  Text('HEIGHT'),
+                  Text(
+                    'HEIGHT',
+                    style: kLabelTextStyle,
+                  ),
                 ],
               ),
               color: inactiveCardColor,
