@@ -94,7 +94,11 @@ class _HomePageState extends State<HomePage> {
                     value: height.toDouble(),
                     min: 110.0,
                     max: 250.0,
-                    onChanged: (double newValue) {},
+                    onChanged: (double newValue) {
+                      setState(() {
+                        height = newValue.round();
+                      });
+                    },
                   )
                 ],
               ),
