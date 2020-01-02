@@ -75,6 +75,7 @@ class _HomePageState extends State<HomePage> {
                     style: kLabelTextStyle,
                   ),
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       Text(
                         '180',
