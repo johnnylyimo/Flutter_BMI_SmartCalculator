@@ -25,6 +25,7 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Expanded(
             child: Row(
