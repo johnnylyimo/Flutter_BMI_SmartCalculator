@@ -92,11 +92,13 @@ class _HomePageState extends State<HomePage> {
                   ),
                   SliderTheme(
                     data: SliderTheme.of(context).copyWith(
+                      activeTrackColor: Theme.of(context).colorScheme.secondary,
                       thumbColor: Theme.of(context).colorScheme.onPrimary,
                       thumbShape:
                           RoundSliderThumbShape(enabledThumbRadius: 15.0),
                       overlayShape:
                           RoundSliderOverlayShape(overlayRadius: 20.0),
+                      overlayColor: Color(0x29004d40),
                     ),
                     child: Slider(
                       value: height.toDouble(),
