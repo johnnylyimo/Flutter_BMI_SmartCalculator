@@ -168,7 +168,10 @@ class _HomePageState extends State<HomePage> {
                     cardChild: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
-                        Text('AGE'),
+                        Text(
+                          'AGE',
+                          style: kLabelTextStyle,
+                        ),
                       ],
                     ),
                   ),
