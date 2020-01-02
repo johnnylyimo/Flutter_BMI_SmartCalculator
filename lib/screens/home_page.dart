@@ -69,6 +69,7 @@ class _HomePageState extends State<HomePage> {
             child: ReusableCard(
               cardChild: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.baseline,
                 children: <Widget>[
                   Text(
                     'HEIGHT',
