@@ -92,7 +92,8 @@ class _HomePageState extends State<HomePage> {
                   ),
                   Slider(
                     value: height.toDouble(),
-                    min: 120.0,
+                    min: 110.0,
+                    max: 250.0,
                   )
                 ],
               ),
