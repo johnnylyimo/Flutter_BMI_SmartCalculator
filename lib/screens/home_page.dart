@@ -92,6 +92,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   SliderTheme(
                     data: SliderTheme.of(context).copyWith(
+                      thumbColor: Theme.of(context).colorScheme.onPrimary,
                       thumbShape:
                           RoundSliderThumbShape(enabledThumbRadius: 15.0),
                       overlayShape:
