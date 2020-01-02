@@ -46,6 +46,11 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Expanded(
                   child: ReusableCard(
+                    onPress: () {
+                      setState(() {
+                        selectedGender = Gender.male;
+                      });
+                    },
                     color: selectedGender == Gender.female
                         ? activeCardColor
                         : inactiveCardColor,
