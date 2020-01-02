@@ -65,7 +65,11 @@ class _HomePageState extends State<HomePage> {
           ),
           Expanded(
             child: ReusableCard(
-              cardChild: Column(),
+              cardChild: Column(
+                children: <Widget>[
+                  Text('HEIGHT'),
+                ],
+              ),
               color: inactiveCardColor,
             ),
           ),
