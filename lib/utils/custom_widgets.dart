@@ -68,6 +68,9 @@ class RoundIconButton extends StatelessWidget {
   final IconData icon; // be specific passing only IconData
   final Function onTap; // adding functionality method
 
+  // Constructor for initialization class members
+  RoundIconButton({@required this.icon, @required this.onTap});
+
   @override
   Widget build(BuildContext context) {
     return RawMaterialButton(
