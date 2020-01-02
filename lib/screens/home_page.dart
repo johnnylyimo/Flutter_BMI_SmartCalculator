@@ -83,7 +83,7 @@ class _HomePageState extends State<HomePage> {
                     textBaseline: TextBaseline.alphabetic,
                     children: <Widget>[
                       Text(
-                        '180',
+                        height.toString(),
                         style: kNumberTextStyle,
                       ),
                       Text('cm')
