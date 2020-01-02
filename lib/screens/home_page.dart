@@ -90,15 +90,18 @@ class _HomePageState extends State<HomePage> {
                       Text('cm')
                     ],
                   ),
-                  Slider(
-                    value: height.toDouble(),
-                    min: 110.0,
-                    max: 250.0,
-                    onChanged: (double newValue) {
-                      setState(() {
-                        height = newValue.round();
-                      });
-                    },
+                  SliderTheme(
+                    data: SliderTheme.of(context).copyWith(),
+                    child: Slider(
+                      value: height.toDouble(),
+                      min: 110.0,
+                      max: 250.0,
+                      onChanged: (double newValue) {
+                        setState(() {
+                          height = newValue.round();
+                        });
+                      },
+                    ),
                   )
                 ],
               ),
