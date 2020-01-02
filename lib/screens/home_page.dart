@@ -73,6 +73,7 @@ class _HomePageState extends State<HomePage> {
                     'HEIGHT',
                     style: kLabelTextStyle,
                   ),
+                  Row()
                 ],
               ),
               color: inactiveCardColor,
