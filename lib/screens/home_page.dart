@@ -149,7 +149,12 @@ class _HomePageState extends State<HomePage> {
                               width: 20.0,
                             ),
                             RoundIconButton(
-                              icon: FontAwesomeIcons.plus,
+                              icon: FontAwesomeIcons.minus,
+                              onTap: () {
+                                setState(() {
+                                  weight--;
+                                });
+                              },
                             ),
                           ],
                         )
