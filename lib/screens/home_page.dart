@@ -90,7 +90,9 @@ class _HomePageState extends State<HomePage> {
                       Text('cm')
                     ],
                   ),
-                  Slider()
+                  Slider(
+                    value: height.toDouble(),
+                  )
                 ],
               ),
             ),
