@@ -139,6 +139,11 @@ class _HomePageState extends State<HomePage> {
                           children: <Widget>[
                             RoundIconButton(
                               icon: FontAwesomeIcons.plus,
+                              onTap: () {
+                                setState(() {
+                                  weight++;
+                                });
+                              },
                             ),
                             SizedBox(
                               width: 20.0,
