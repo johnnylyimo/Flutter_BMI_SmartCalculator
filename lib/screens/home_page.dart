@@ -70,6 +70,7 @@ class _HomePageState extends State<HomePage> {
           ),
           Expanded(
             child: ReusableCard(
+              color: inactiveCardColor,
               cardChild: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
@@ -89,9 +90,9 @@ class _HomePageState extends State<HomePage> {
                       Text('cm')
                     ],
                   ),
+                  Slider()
                 ],
               ),
-              color: inactiveCardColor,
             ),
           ),
           Expanded(
