@@ -67,6 +67,6 @@ RawMaterialButton basis button class does not use the current Theme or ButtonThe
 class RoundIconButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return RawMaterialButton();
   }
 }
