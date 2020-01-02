@@ -208,8 +208,12 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           FloatingActionButton.extended(
+            backgroundColor: Theme.of(context).colorScheme.onPrimary,
             onPressed: () {},
-            label: Text('CALCULATE YOUR BMI'),
+            label: Text(
+              'CALCULATE YOUR BMI',
+              style: kLabelTextStyle,
+            ),
           )
         ],
       ),
