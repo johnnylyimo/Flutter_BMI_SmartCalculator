@@ -17,6 +17,7 @@ class _HomePageState extends State<HomePage> {
   Gender selectedGender;
   int height = 180;
   int weight = 30;
+  int age = 16;
 
   @override
   Widget build(BuildContext context) {
