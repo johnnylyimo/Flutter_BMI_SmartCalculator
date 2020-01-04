@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bmi_smart_calculator/screens/results.dart';
 import 'package:flutter_bmi_smart_calculator/utils/constants.dart';
 import 'package:flutter_bmi_smart_calculator/utils/custom_widgets.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -209,7 +210,14 @@ class _HomePageState extends State<HomePage> {
           ),
           FloatingActionButton.extended(
             backgroundColor: Theme.of(context).colorScheme.onPrimary,
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => ResultPage()
+                ),
+              );
+            },
             label: Text(
               'CALCULATE YOUR BMI',
               style: kLabelTextStyle,
