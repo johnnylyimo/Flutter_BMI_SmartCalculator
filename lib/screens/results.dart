@@ -8,8 +8,8 @@ class ResultPage extends StatelessWidget {
         title: Text('BMI Smart Calculator'),
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-      ),
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: <Widget>[Container()]),
     );
   }
 }
