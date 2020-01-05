@@ -8,7 +8,8 @@ class BMICalculator {
   double _bmi;
 
   String computeBMI() {
-    _bmi = weight / pow(height, 2);
+    _bmi = weight /
+        pow(height / 100, 2); // convert height in cm to meter by divide by 100
     return _bmi.toStringAsFixed(1);
   }
 
