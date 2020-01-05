@@ -15,6 +15,7 @@ class ResultPage extends StatelessWidget {
           children: <Widget>[
             Expanded(
               child: Container(
+                alignment: Alignment.bottomCenter,
                 child: Text(
                   'Your Result',
                   textAlign: TextAlign.center,
