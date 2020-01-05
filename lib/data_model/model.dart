@@ -12,6 +12,8 @@ class BMICalculator {
     return _bmi.toStringAsFixed(1);
   }
 
+//  Normal BMI range: 18.5 - 25kg/m2
+
   String getResult() {
     if (_bmi >= 25) {
       return 'OVERWEIGHT';
