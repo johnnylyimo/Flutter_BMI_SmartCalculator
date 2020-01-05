@@ -1,13 +1,24 @@
 import 'dart:math';
 
 class BMICalculator {
+  BMICalculator({this.height, this.weight});
   final int height;
   final int weight;
 
-  BMICalculator({this.height, this.weight});
+  double _bmi;
 
   String computeBMI() {
-    double bmi = weight / pow(height, 2);
-    return bmi.toStringAsFixed(1);
+    _bmi = weight / pow(height, 2);
+    return _bmi.toStringAsFixed(1);
+  }
+
+  String getResult() {
+    if (_bmi >= 25) {
+      return 'OVERWEIGHT';
+    } else if (_bmi > 18.5) {
+      return 'NORMAL';
+    } else {
+      return 'UNDERWEIGHT';
+    }
   }
 }
