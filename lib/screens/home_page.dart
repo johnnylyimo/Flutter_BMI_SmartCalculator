@@ -15,7 +15,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   Gender selectedGender;
   int height = 177;
-  int weight = 30;
+  int weight = 76;
   int age = 16;
 
   @override
@@ -211,7 +211,6 @@ class _HomePageState extends State<HomePage> {
             onPressed: () {
               BMICalculator calc =
                   BMICalculator(height: height, weight: weight);
-              print(weight);
 
               Navigator.push(
                 context,
