@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bmi_smart_calculator/screens/results.dart';
 import 'package:flutter_bmi_smart_calculator/utils/constants.dart';
 import 'package:flutter_bmi_smart_calculator/utils/custom_widgets.dart';
+import 'package:flutter_bmi_smart_calculator/data_model/model.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 enum Gender { male, female }
@@ -208,6 +209,9 @@ class _HomePageState extends State<HomePage> {
           FloatingActionButton.extended(
             backgroundColor: Theme.of(context).colorScheme.onPrimary,
             onPressed: () {
+              BMICalculator calc =
+                  BMICalculator(height: height, weight: weight);
+
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => ResultPage()),
