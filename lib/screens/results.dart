@@ -48,7 +48,10 @@ class ResultPage extends StatelessWidget {
                       bmiResult,
                       style: kBMIValueTextStyle,
                     ),
-                    Text(resultInterpretation),
+                    Text(
+                      resultInterpretation,
+                      textAlign: TextAlign.center,
+                    ),
                     RaisedButton(
                       elevation: 10.0,
                       color: Theme.of(context).colorScheme.onPrimary,
