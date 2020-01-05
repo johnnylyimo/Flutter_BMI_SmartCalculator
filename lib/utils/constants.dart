@@ -17,6 +17,10 @@ const kResultTextStyle = TextStyle(
   fontSize: 22.0,
   fontWeight: FontWeight.bold,
 );
+const kBMIValueTextStyle = TextStyle(
+  fontSize: 72.0,
+  fontWeight: FontWeight.bold,
+);
 
 Color activeCardColor = Colors.teal.shade500;
 Color inactiveCardColor = Colors.teal.shade300;
