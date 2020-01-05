@@ -214,7 +214,12 @@ class _HomePageState extends State<HomePage> {
 
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => ResultPage()),
+                MaterialPageRoute(
+                    builder: (context) => ResultPage(
+                          bmiResult: calc.computeBMI(),
+                          resultText: calc.getResult(),
+                          resultInterpretation: calc.getInterpretation(),
+                        )),
               );
             },
             label: Text(
