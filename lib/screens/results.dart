@@ -48,7 +48,7 @@ class ResultPage extends StatelessWidget {
                       bmiResult,
                       style: kBMIValueTextStyle,
                     ),
-                    Text('Your BMI result is Normal'),
+                    Text(resultInterpretation),
                     RaisedButton(
                       elevation: 10.0,
                       color: Theme.of(context).colorScheme.onPrimary,
