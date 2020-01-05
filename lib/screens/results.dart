@@ -27,6 +27,9 @@ class ResultPage extends StatelessWidget {
                 cardChild: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
+                  children: <Widget>[
+                    Text('Normal'),
+                  ],
                 ),
               ),
             )
