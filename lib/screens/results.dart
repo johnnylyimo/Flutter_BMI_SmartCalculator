@@ -41,6 +41,8 @@ class ResultPage extends StatelessWidget {
                     ),
                     Text('Your BMI result is Normal'),
                     RaisedButton(
+                      elevation: 10.0,
+                      color: Theme.of(context).colorScheme.onPrimary,
                       onPressed: () {},
                       child: Text(
                         'SAVE RESULT',
