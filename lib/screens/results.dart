@@ -7,7 +7,10 @@ class ResultPage extends StatelessWidget {
   final String resultText;
   final String resultInterpretation;
 
-  ResultPage({@required this.bmiResult, @required this.resultText, @required this.resultInterpretation})
+  ResultPage(
+      {@required this.bmiResult,
+      @required this.resultText,
+      @required this.resultInterpretation});
 
   @override
   Widget build(BuildContext context) {
@@ -38,7 +41,7 @@ class ResultPage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
                     Text(
-                      'Normal',
+                      resultText,
                       style: kResultTextStyle,
                     ),
                     Text(
