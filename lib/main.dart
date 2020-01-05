@@ -7,6 +7,7 @@ class BMICalculator extends StatelessWidget {
   // This widget is the root of your application.
   final TextTheme textTheme = TextTheme(
     body1: TextStyle(color: Colors.white),
+    title: TextStyle(fontSize: 38.0, fontWeight: FontWeight.bold),
   );
 
   final ColorScheme colorScheme = ColorScheme.light(
