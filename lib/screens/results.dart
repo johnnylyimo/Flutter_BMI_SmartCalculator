@@ -45,9 +45,11 @@ class ResultPage extends StatelessWidget {
             ),
             FloatingActionButton.extended(
               backgroundColor: Theme.of(context).colorScheme.onPrimary,
-              onPressed: null,
+              onPressed: () {
+                Navigator.pop(context);
+              },
               label: Text(
-                'RE CALCULATE',
+                'RE-CALCULATE',
                 style: kLabelTextStyle,
               ),
             )
