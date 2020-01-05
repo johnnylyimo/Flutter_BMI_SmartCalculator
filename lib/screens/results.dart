@@ -41,6 +41,10 @@ class ResultPage extends StatelessWidget {
                   ],
                 ),
               ),
+            ),
+            FloatingActionButton.extended(
+              onPressed: null,
+              label: Text('RE CALCULATE '),
             )
           ]),
     );
