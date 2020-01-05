@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bmi_smart_calculator/data_model/model.dart';
 import 'package:flutter_bmi_smart_calculator/screens/results.dart';
 import 'package:flutter_bmi_smart_calculator/utils/constants.dart';
 import 'package:flutter_bmi_smart_calculator/utils/custom_widgets.dart';
-import 'package:flutter_bmi_smart_calculator/data_model/model.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 enum Gender { male, female }
@@ -14,7 +14,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   Gender selectedGender;
-  int height = 180;
+  int height = 177;
   int weight = 30;
   int age = 16;
 
@@ -211,6 +211,7 @@ class _HomePageState extends State<HomePage> {
             onPressed: () {
               BMICalculator calc =
                   BMICalculator(height: height, weight: weight);
+              print(weight);
 
               Navigator.push(
                 context,
