@@ -3,6 +3,8 @@ import 'package:flutter_bmi_smart_calculator/utils/constants.dart';
 import 'package:flutter_bmi_smart_calculator/utils/custom_widgets.dart';
 
 class ResultPage extends StatelessWidget {
+  final String bmiResult;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
