@@ -33,6 +33,7 @@ class ResultPage extends StatelessWidget {
                       'Normal',
                       style: kResultTextStyle,
                     ),
+                    Text('20.0')
                   ],
                 ),
               ),
