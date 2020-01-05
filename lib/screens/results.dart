@@ -36,7 +36,8 @@ class ResultPage extends StatelessWidget {
                     Text(
                       '25.3',
                       style: kBMIValueTextStyle,
-                    )
+                    ),
+                    Text('Your BMI result is Normal')
                   ],
                 ),
               ),
