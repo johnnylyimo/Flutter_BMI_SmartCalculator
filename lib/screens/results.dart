@@ -43,6 +43,7 @@ class ResultPage extends StatelessWidget {
               ),
             ),
             FloatingActionButton.extended(
+              backgroundColor: Theme.of(context).colorScheme.onPrimary,
               onPressed: null,
               label: Text('RE CALCULATE '),
             )
