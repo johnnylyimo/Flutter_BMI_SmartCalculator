@@ -11,3 +11,6 @@ const kNumberTextStyle = TextStyle(
   fontSize: 30.0,
   fontWeight: FontWeight.w900,
 );
+
+Color activeCardColor = Colors.teal.shade500;
+Color inactiveCardColor = Colors.teal.shade300;
