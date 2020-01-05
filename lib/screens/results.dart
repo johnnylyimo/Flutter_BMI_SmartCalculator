@@ -42,7 +42,10 @@ class ResultPage extends StatelessWidget {
                     Text('Your BMI result is Normal'),
                     RaisedButton(
                       onPressed: () {},
-                      child: Text('SAVE RESULT'),
+                      child: Text(
+                        'SAVE RESULT',
+                        style: kLabelTextStyle,
+                      ),
                     )
                   ],
                 ),
