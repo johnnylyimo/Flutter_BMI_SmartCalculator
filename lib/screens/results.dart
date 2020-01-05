@@ -19,7 +19,9 @@ class ResultPage extends StatelessWidget {
                 ),
               ),
             ),
-            ReusableCard()
+            Expanded(
+              child: ReusableCard(),
+            )
           ]),
     );
   }
