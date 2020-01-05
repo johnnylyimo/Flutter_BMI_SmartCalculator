@@ -17,6 +17,7 @@ class ResultPage extends StatelessWidget {
               child: Container(
                 child: Text(
                   'Your Result',
+                  textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.title,
                 ),
               ),
