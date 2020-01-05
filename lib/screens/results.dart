@@ -24,7 +24,9 @@ class ResultPage extends StatelessWidget {
               flex: 5,
               child: ReusableCard(
                 color: inactiveCardColor,
-                cardChild: Column(),
+                cardChild: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                ),
               ),
             )
           ]),
