@@ -11,7 +11,10 @@ class ResultPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             Container(
-              child: Text('Your Result'),
+              child: Text(
+                'Your Result',
+                style: Theme.of(context).textTheme.title,
+              ),
             )
           ]),
     );
