@@ -1,3 +1,5 @@
 import 'dart:math';
 
-class BMICalculator {}
+class BMICalculator {
+  final int height;
+}
