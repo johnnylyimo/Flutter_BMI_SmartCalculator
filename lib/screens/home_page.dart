@@ -6,9 +6,6 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 enum Gender { male, female }
 
-Color activeCardColor = Colors.teal.shade500;
-Color inactiveCardColor = Colors.teal.shade300;
-
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
@@ -213,9 +210,7 @@ class _HomePageState extends State<HomePage> {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(
-                  builder: (context) => ResultPage()
-                ),
+                MaterialPageRoute(builder: (context) => ResultPage()),
               );
             },
             label: Text(
