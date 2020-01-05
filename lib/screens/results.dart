@@ -26,6 +26,7 @@ class ResultPage extends StatelessWidget {
                 color: inactiveCardColor,
                 cardChild: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                 ),
               ),
             )
