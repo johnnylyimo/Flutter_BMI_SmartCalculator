@@ -5,6 +5,7 @@ import 'package:flutter_bmi_smart_calculator/utils/custom_widgets.dart';
 class ResultPage extends StatelessWidget {
   final String bmiResult;
   final String resultText;
+  final String resultInterpretation;
 
   @override
   Widget build(BuildContext context) {
