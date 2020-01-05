@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bmi_smart_calculator/utils/custom_widgets.dart';
 
 class ResultPage extends StatelessWidget {
   @override
@@ -17,7 +18,8 @@ class ResultPage extends StatelessWidget {
                   style: Theme.of(context).textTheme.title,
                 ),
               ),
-            )
+            ),
+            ReusableCard()
           ]),
     );
   }
